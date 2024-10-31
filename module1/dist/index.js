@@ -7,5 +7,8 @@ let fname = "robi";
 let isTrue = true;
 let x = null;
 let y = undefined;
-let z = Symbol();
-console.log(z);
+// array
+const studentName = ['robi', 'rahad'];
+const studentRool = [54, 46, 656];
+//tuple
+const ageName = [10, 'robi'];
