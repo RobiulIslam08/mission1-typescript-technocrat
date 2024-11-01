@@ -24,4 +24,11 @@
 
 	}
 	getSpeedInMeterPerSecond('1000 kmh')
+
+
+	//never
+	const throwError = (msg:string) => {
+		throw new Error(msg)
+	}
+	throwError('error hoise bhai')
 }
