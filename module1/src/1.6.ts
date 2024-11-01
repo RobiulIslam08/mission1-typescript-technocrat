@@ -1,4 +1,5 @@
-//normal funciton
+{
+	//normal funciton
 //arrow function
 
 //normal funciton
@@ -30,3 +31,4 @@ poorUser.addBalance(20)
 const numberArray:number[] = [5,6,7,7]
 const newArray:number[] = numberArray.map((element:number)=> element * element)
 console.log(newArray)
+}
