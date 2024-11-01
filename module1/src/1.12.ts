@@ -31,4 +31,6 @@
 		throw new Error(msg)
 	}
 	throwError('error hoise bhai')
+
+	console.log('module complete')
 }
