@@ -13,4 +13,14 @@
 	const result2 = kgToGm('1000') as string
 	console.log(result1)
 	console.log(result2)
+
+	// error throw
+	type CustomError = {
+		message: 'bhai apne to error khaisen'
+	}
+	try {
+		
+	} catch (error) {
+		console.log((error as CustomError). message)
+	}
 }
