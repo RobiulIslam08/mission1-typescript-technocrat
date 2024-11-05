@@ -8,6 +8,7 @@
 				resolve(data)
 			}else{
 				reject('failed to load data')
+				console.log('ok')
 			}
 		})
 	}
