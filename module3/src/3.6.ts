@@ -10,7 +10,7 @@
 			this.name = name
 		}
 
-		set deposit(amount) {
+		set deposit(amount:number) {
 			 this._balance = this._balance + amount
 		}
 		// addDeposit(amount:number) {
